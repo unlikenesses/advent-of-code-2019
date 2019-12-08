@@ -3,7 +3,7 @@ import math;
 sum = 0
 
 def calculate_fuel(mass):
-    return math.floor(int(mass) / 3) - 2
+    return (int(mass) // 3) - 2
 
 with open('input.txt') as input:
     for line in input:
