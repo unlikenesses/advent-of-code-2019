@@ -1,5 +1,3 @@
-import math;
-
 sum = 0
 
 def calculate_fuel(mass):
